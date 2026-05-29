@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Абзал & Диана - Құдалық Тойы</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="loading-screen">
+        <div class="loading-content">
+            <h1 class="loading-title">Абзал <span class="heart">❤️</span> Диана</h1>
+            <div class="shimmer-line"></div>
+        </div>
+    </div>
+
+    <canvas id="particles-canvas"></canvas>
+
+    <main class="wrapper">
+        
+        <section id="hero" class="section-full flex-center">
+            <div class="glass-container hero-glass reveal">
+                <div class="ornament top-ornament">✧ ✦ ✧</div>
+                <h2 class="hero-subtitle">Ұлымыз Абзал<br>мен келініміз Диананың</h2>
+                <h1 class="hero-title gold-text">ҚҰДАЛЫҚ ТОЙЫ</h1>
+                <div class="ornament bottom-ornament">✧ ✦ ✧</div>
+                <p class="hero-desc">Сіздерді ақ дастарханымыздың қадірлі қонағы болуға шақырамыз</p>
+                <div class="scroll-indicator">
+                    <span>Төмен айналдырыңыз</span>
+                    <div class="mouse-icon"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="section-padding">
+            <div class="info-grid reveal">
+                <div class="info-card glass-card float-anim">
+                    <div class="icon">📅</div>
+                    <h3>Күні</h3>
+                    <p class="gold-text-light">23.07.2026</p>
+                </div>
+                <div class="info-card glass-card float-anim delay-1">
+                    <div class="icon">🕒</div>
+                    <h3>Уақыты</h3>
+                    <p class="gold-text-light">Сағат 15:00</p>
+                </div>
+                <div class="info-card glass-card float-anim delay-2">
+                    <div class="icon">📍</div>
+                    <h3>Мекен-жайы</h3>
+                    <p class="gold-text-light">Астана қаласы,<br>Балқантау көшесі 41</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="countdown-section" class="section-padding flex-center reveal">
+            <div class="glass-container countdown-container">
+                <h2 class="section-title gold-text">Тойдың басталуына қалды:</h2>
+                <div class="countdown" id="countdown">
+                    <div class="time-box">
+                        <span id="days" class="time-num">00</span>
+                        <span class="time-text">Күн</span>
+                    </div>
+                    <div class="time-box">
+                        <span id="hours" class="time-num">00</span>
+                        <span class="time-text">Сағат</span>
+                    </div>
+                    <div class="time-box">
+                        <span id="minutes" class="time-num">00</span>
+                        <span class="time-text">Минут</span>
+                    </div>
+                    <div class="time-box">
+                        <span id="seconds" class="time-num">00</span>
+                        <span class="time-text">Секунд</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding reveal">
+            <h2 class="section-title gold-text text-center">Естелік сәттер</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item glass-card">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800" alt="Wedding Ring">
+                </div>
+                <div class="gallery-item glass-card">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800" alt="Wedding Table">
+                </div>
+                <div class="gallery-item glass-card">
+                    <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=800" alt="Venue Details">
+                </div>
+            </div>
+        </section>
+
+        <section id="map" class="section-padding reveal">
+            <div class="glass-container map-container">
+                <h2 class="section-title gold-text text-center">Тойхана орналасуы</h2>
+                <div class="map-wrapper glass-card">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.208119153928!2d71.4870566!3d51.1219661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDA3JzE5LjEiTiA3McKwMjknMTMuNCJF!5e0!3m2!1sru!2skz!4v1716382100000!5m2!1sru!2skz" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="rsvp" class="section-padding flex-center reveal">
+            <div class="glass-container rsvp-container">
+                <h2 class="section-title gold-text">Тойға келетініңізді растауыңызды сұраймыз</h2>
+                <div class="buttons-group">
+                    <a href="https://wa.me/77026788188?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%D0%B4%D0%B5%D1%80%20%D0%BC%D0%B5!%20%D2%9A%D2%B1%D0%B4%D0%B0%D0%BB%D1%8B%D2%9B%20%D1%82%D0%BE%D0%B9%D2%93%D0%B0%20%D2%9B%D1%83%D0%B0%D0%BD%D0%B0%20%D0%B1%D0%B0%D1%80%D0%B0%D0%BC%D1%8B%D0%BD%20%E2%9D%A4%EF%B8%8F" 
+                       class="btn btn-primary ripple" target="_blank">
+                        Қуана барамын ❤️
+                    </a>
+                    <a href="https://wa.me/77000000000?text=%D0%A1%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%D0%B4%D0%B5%D1%80%20%D0%BC%D0%B5!%20%D3%A8%D0%BA%D1%96%D0%BD%D1%96%D1%88%D0%BA%D0%B5%20%D0%BE%D1%80%D0%B0%D0%B9%20%D0%BA%D0%B5%D0%BB%D0%B5%20%D0%B0%D0%BB%D0%BC%D0%B0%D0%B9%D0%BC%D1%8B%D0%BD." 
+                       class="btn btn-secondary ripple" target="_blank">
+                        Өкінішке орай бара алмаймын
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer reveal">
+            <div class="ornament">✧ ✦ ✧</div>
+            <h2>Сіздерді асыға күтеміз!</h2>
+            <div class="ornament">✧ ✦ ✧</div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
